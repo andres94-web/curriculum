@@ -1,0 +1,8 @@
+body {
+  background-image: url("../img/fondo\ principal.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white
+}

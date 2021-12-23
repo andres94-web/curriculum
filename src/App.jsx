@@ -1,6 +1,8 @@
+import Contenedor from "./components/Contenedor";
+
 function App() {
-  return <div className="App">
-    hola mundo por segunda vez 
+  return <div className="container-fluid fondo_principal">
+    <Contenedor />
   </div>;
 }
 
