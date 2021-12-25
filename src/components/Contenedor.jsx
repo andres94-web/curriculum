@@ -3,65 +3,10 @@ import React from 'react'
 const contenedor = () => {
     return (
         <div className='contenedor container text-white'>
-            <div class="row">
-                <div class="col-3 mt-4">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-4">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-4">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-4">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-3 mt-3">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-3">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-3">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-3 mt-3">
-                    <div class="card bg-transparent">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, atque cumque. Maxime commodi ipsa necessitatibus, vel minus aliquam natus nobis quia voluptatum. A saepe impedit ipsam debitis omnis quis iusto!</p>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            <h1 className='text-center display-6'>Alvaro Andres Hurtado Vallecilla</h1>
+            <p className='text-center m-0'>Estudiante de ingenieria en sistemas</p>
+            <p className='text-center'>Universidad del Valle</p>
+            
         </div>
     )
 }

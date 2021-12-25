@@ -1,7 +1,7 @@
 import Contenedor from "./components/Contenedor";
 
 function App() {
-  return <div className="container-fluid fondo_principal">
+  return <div className="fondo_principal">
     <Contenedor />
   </div>;
 }
