@@ -1,10 +1,33 @@
-.contenedor{
-    background-color: rgba(225, 225, 225, 0.1);
-    height: 80vh;
+.contenedor {
+  background-color: rgba(225, 225, 225, 0.1);
+  height: 80vh;
 
-    /* backdrop-filter: blur(5px); */
-    border: solid 1px rgba(225, 225, 225, .10);
-    border-radius: 6px;
-/*     width: 90%; */
-    margin: 4.6% auto;
+  /* backdrop-filter: blur(5px); */
+  border: solid 1px rgba(225, 225, 225, 0.1);
+  border-radius: 6px;
+  /*     width: 90%; */
+  margin: 4.6% auto;
+}
+
+.fondoBotones {
+  background: linear-gradient(
+    45deg,
+    rgba(29, 236, 197, 0.5),
+    rgba(91, 14, 214, 0.5) 100%
+  );
+  opacity: 0.9.5;
+}
+
+.botones :hover {
+    background: linear-gradient(
+    45deg,
+    rgba(91, 14, 214, 0.5),
+    rgba(29, 236, 197, 0.5) 100%
+  );
+}
+
+
+.botones :active {
+  
+  background: transparent;
 }
