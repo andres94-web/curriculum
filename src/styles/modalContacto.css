@@ -1,0 +1,83 @@
+body,
+.div-modalContacto {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-modalContacto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#boton-modalContacto:checked ~ .div-modalContacto {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor-modalContacto {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background: linear-gradient(
+    45deg,
+    rgba(91, 14, 214, 0.5),
+    rgba(29, 236, 197, 0.5) 100%
+  );
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateY(-30%);
+  color: #000;
+}
+
+#boton-modalContacto:checked ~ .div-modalContacto .contenedor-modalContacto {
+  transform: translateY(0%);
+}
+
+.contenedor-modalContacto header {
+  padding: 10px;
+  background: linear-gradient(
+    45deg,
+    rgba(91, 14, 214, 0.5),
+    rgba(29, 236, 197, 0.5) 100%
+  );
+  color: #000;
+}
+
+.contenedor-modalContacto label {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contenidoContacto {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+}
+
+#boton-modalContacto {
+  display: none;
+}
+
+.label-modalContacto {
+  background: linear-gradient(
+    45deg,
+    rgba(29, 236, 197, 0.5),
+    rgba(91, 14, 214, 0.5) 100%
+  );
+  opacity: 0.9.5;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
