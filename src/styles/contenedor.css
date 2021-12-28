@@ -14,13 +14,13 @@
   );
 }
 
-.botones :hover {
+/* .botones :hover {
     background: linear-gradient(
     45deg,
     rgba(91, 14, 214, 0.5),
     rgba(29, 236, 197, 0.5) 100%
   );
-}
+} */
 
 .botones :active {
   background: transparent;

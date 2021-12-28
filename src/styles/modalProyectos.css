@@ -10,7 +10,11 @@ body,
   position: absolute;
   top: 0;
   left: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
+  /* background: linear-gradient(
+    45deg,
+    rgba(91, 14, 214, 1),
+    rgba(29, 236, 197, 1) 100%
+  ); */
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
@@ -27,14 +31,13 @@ body,
   margin: auto;
   background: linear-gradient(
     45deg,
-    rgba(91, 14, 214, 0.5),
-    rgba(29, 236, 197, 0.5) 100%
+    rgba(91, 14, 214, 1),
+    rgba(29, 236, 197, 1) 100%
   );
-  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 1);
   transition: all 500ms ease;
-  position: relative;
   transform: translateY(-30%);
-  color: #000;
+  color: #fff;
 }
 
 #boton-modalProyecto:checked ~ .div-modalProyecto .contenedor-modalProyecto {
@@ -45,17 +48,16 @@ body,
   padding: 10px;
   background: linear-gradient(
     45deg,
-    rgba(91, 14, 214, 0.5),
-    rgba(29, 236, 197, 0.5) 100%
+    rgba(91, 14, 214, 1),
+    rgba(29, 236, 197, 1) 100%
   );
-  color: #000;
+  color: #fff;
 }
 
 .contenedor-modalProyecto label {
   position: absolute;
   top: 10px;
   right: 15px;
-  color: #000;
   font-size: 15px;
   cursor: pointer;
 }

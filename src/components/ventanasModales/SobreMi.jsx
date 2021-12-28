@@ -11,7 +11,8 @@ const SobreMi = () => {
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalSobreMi">Cerrar</label>
 			        <div className="contenidoSobreMi">
-				        <p> Sobre mi </p>
+				        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, laboriosam eaque. Repudiandae esse, autem architecto sequi pariatur illo soluta aliquam, debitis vero culpa saepe numquam repellat minima. Soluta, cupiditate quae.
+						Inventore minima ad laboriosam illum. Iure ducimus rem quisquam alias ex perspiciatis tempora repellendus et exercitationem saepe accusantium, ab veniam quos nihil quam voluptatem magnam omnis fuga velit. Quis, vitae. </p>
 			      </div>
 		      </div>
 	      </div>
