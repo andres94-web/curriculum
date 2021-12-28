@@ -10,11 +10,11 @@ body,
   position: absolute;
   top: 0;
   left: 0;
-  /* background: linear-gradient(
+  background: linear-gradient(
     45deg,
     rgba(91, 14, 214, 1),
     rgba(29, 236, 197, 1) 100%
-  ); */
+  );
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
