@@ -10,6 +10,7 @@ body,
   position: absolute;
   top: 0;
   left: 0;
+  background: #000;
   /* background: linear-gradient(
     45deg,
     rgba(91, 14, 214, 1),

@@ -4,7 +4,7 @@ const Certificados = () => {
 
     return (
       <>
-        <input type="checkbox" id="boton-modalCertificado" className="col-2 bg-transparent text-white fondoBotones "/>
+        <input type="checkbox" id="boton-modalCertificado" className="col-2 text-white fondoBotones "/>
 	      <label for="boton-modalCertificado" className="label-modalCertificados fw-bold fs-5 my-1 text-center">Certificados</label>
         <div className="div-modalCertificados">
 		        <div className="contenedor-modalCertificados">

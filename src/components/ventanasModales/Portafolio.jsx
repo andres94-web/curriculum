@@ -4,7 +4,7 @@ const Portafolio = () => {
 
     return (
       <>
-        <input type="checkbox" id="boton-modalPortafolio" className="col-2 bg-transparent text-white fondoBotones"/>
+        <input type="checkbox" id="boton-modalPortafolio" className="col-2 text-white fondoBotones"/>
 	      <label for="boton-modalPortafolio" className="label-modalPortafolio fw-bold fs-5 my-1 text-center">Portafolio</label>
         <div className="div-modalPortafolio">
 		        <div className="contenedor-modalPortafolio">
