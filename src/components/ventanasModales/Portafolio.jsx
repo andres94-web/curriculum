@@ -10,8 +10,11 @@ const Portafolio = () => {
 		        <div className="contenedor-modalPortafolio">
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalPortafolio">Cerrar</label>
-			        <div className="contenidoPortafolio">
-				        <p> Portafolio </p>
+			        <div className="contenidoPortafolio text-center mt-5">
+				        <p> El siguiente enlace los llevara al primer portafolio que hice el cual fue construido
+							solamente con Html y Css. 
+							<a href="https://loving-wright-d21059.netlify.app/" target="_blank"> Ver portafolio</a>
+							</p>
 			      </div>
 		      </div>
 	      </div>

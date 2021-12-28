@@ -10,8 +10,13 @@ const Certificados = () => {
 		        <div className="contenedor-modalCertificados">
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalCertificado">Cerrar</label>
-			        <div className="contenidoCertificados">
-				        <p> Certificados </p>
+			        <div className="contenidoCertificados text-center mt-5">
+				        <p> Primer certificado
+							<a href="misCertificadosGoogle/certificado1.pdf" target="_blank"> Ver certificado</a>
+						</p>
+						<p> Segundo certificado
+							<a href="misCertificadosGoogle/certificado2.pdf" target="_blank">Ver certificado</a>
+						</p>
 			      </div>
 		      </div>
 	      </div>

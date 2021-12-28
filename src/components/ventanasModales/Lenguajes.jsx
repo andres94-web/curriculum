@@ -27,9 +27,9 @@ const Lenguajes = () => {
 						</div>
 
 						<span className='mt-5'>
-							Apesar de no manejar estos conocimientos aun en un 100%,
-							tengo bien fundamentadas las bases lo que me permite con ayuda
-							de videos y documentacion desarrollar codigo con facilidad.
+							Apesar de no manejar estos conocimientos aun en un 100%
+							tengo bien fundamentadas las bases lo que me permite 
+							desarrollar codigo con gran facilidad.
 						</span>
 			      </div>
 		      </div>

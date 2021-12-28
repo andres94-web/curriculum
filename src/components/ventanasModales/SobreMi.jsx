@@ -10,9 +10,14 @@ const SobreMi = () => {
 		        <div className="contenedor-modalSobreMi">
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalSobreMi">Cerrar</label>
-			        <div className="contenidoSobreMi">
-				        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, laboriosam eaque. Repudiandae esse, autem architecto sequi pariatur illo soluta aliquam, debitis vero culpa saepe numquam repellat minima. Soluta, cupiditate quae.
-						Inventore minima ad laboriosam illum. Iure ducimus rem quisquam alias ex perspiciatis tempora repellendus et exercitationem saepe accusantium, ab veniam quos nihil quam voluptatem magnam omnis fuga velit. Quis, vitae. </p>
+			        <div className="contenidoSobreMi my-4">
+				        <p>
+							Mi nombre es Alvaro Andres Hurtado Vallecilla, tengo 27 años de edad,
+							llevo metido en el mundo de la programacion mas o menos un año con seis meses,
+							voy en quinto semestre de ingenieria en sistemas, ademas de la programacion me
+							encanta tambien el futbol incluso soy portero de la seleccion de futbol sala 
+							en una de las sedes de la Universidad del Valle.
+						</p>
 			      </div>
 		      </div>
 	      </div>

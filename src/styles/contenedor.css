@@ -5,6 +5,9 @@
   border-radius: 6px;
   margin: 4.6% auto;
 }
+a{
+  color: black;
+}
 
 /* .fondoBotones {
   background: linear-gradient(
