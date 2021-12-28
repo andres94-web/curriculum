@@ -16,7 +16,7 @@ const SobreMi = () => {
 							llevo metido en el mundo de la programacion mas o menos un año con seis meses,
 							voy en quinto semestre de ingenieria en sistemas, ademas de la programacion me
 							encanta tambien el futbol incluso soy portero de la seleccion de futbol sala 
-							en una de las sedes de la Universidad del Valle.
+							en una de las sedes de la Universidad del Valle. 
 						</p>
 			      </div>
 		      </div>
