@@ -41,20 +41,17 @@ body,
   color: #fff;
 }
 
-#boton-modalPortafolio:checked ~ .div-modalPortafolio .contenedor-modalPortafolio {
+#boton-modalPortafolio:checked
+  ~ .div-modalPortafolio
+  .contenedor-modalPortafolio {
   transform: translateY(0%);
 }
-#boton-modalPortafolio:checked ~ .label-modalPortafolio {
-  background: none;
-  color: #000;
-}
+
 #boton-modalPortafolio:checked ~ .label-modalProyecto {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 #boton-modalPortafolio:checked ~ .label-modalContacto {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 
 .contenedor-modalPortafolio header {

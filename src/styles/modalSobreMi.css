@@ -44,29 +44,20 @@ body,
 #boton-modalSobreMi:checked ~ .div-modalSobreMi .contenedor-modalSobreMi {
   transform: translateY(0%);
 }
-#boton-modalSobreMi:checked ~ .label-modalSobreMi {
-  background: none;
-  color: none;
-}
 #boton-modalSobreMi:checked ~ .label-modalLenguaje {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 #boton-modalSobreMi:checked ~ .label-modalCertificados {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 #boton-modalSobreMi:checked ~ .label-modalPortafolio {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 #boton-modalSobreMi:checked ~ .label-modalProyecto {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 #boton-modalSobreMi:checked ~ .label-modalContacto {
-  background: none;
-  color: #000;
+  visibility: hidden;
 }
 
 .contenedor-modalSobreMi header {

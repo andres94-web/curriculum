@@ -44,10 +44,6 @@ body,
 #boton-modalContacto:checked ~ .div-modalContacto .contenedor-modalContacto {
   transform: translateY(0%);
 }
-#boton-modalContacto:checked ~ .label-modalContacto {
-  background: none;
-  color: #000;
-}
 
 .contenedor-modalContacto header {
   padding: 10px;
