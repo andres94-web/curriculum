@@ -44,6 +44,10 @@ body,
 #boton-modalCertificado:checked ~ .div-modalCertificados .contenedor-modalCertificados {
   transform: translateY(0%);
 }
+#boton-modalCertificado:checked ~ .contenedor {
+  background-color: #000;
+  color: #000;
+}
 
 .contenedor-modalCertificados header {
   padding: 10px;

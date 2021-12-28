@@ -44,6 +44,10 @@ body,
 #boton-modalPortafolio:checked ~ .div-modalPortafolio .contenedor-modalPortafolio {
   transform: translateY(0%);
 }
+#boton-modalPortafolio:checked ~ .contenedor {
+  background-color: #000;
+  color: #000;
+}
 
 .contenedor-modalPortafolio header {
   padding: 10px;

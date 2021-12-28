@@ -22,7 +22,7 @@ body,
 }
 
 #boton-modalProyecto:checked ~ .div-modalProyecto {
- opacity: 1;
+  opacity: 1;
   visibility: visible;
 }
 
@@ -44,6 +44,10 @@ body,
 #boton-modalProyecto:checked ~ .div-modalProyecto .contenedor-modalProyecto {
   transform: translateY(0%);
 }
+#boton-modalProyecto:checked ~ .contenedor {
+  background-color: #000;
+  color: #000;
+}
 
 .contenedor-modalProyecto header {
   padding: 10px;
@@ -56,7 +60,7 @@ body,
 }
 
 .contenedor-modalProyecto label {
- position: absolute;
+  position: absolute;
   top: 10px;
   right: 15px;
   font-size: 15px;
@@ -64,7 +68,7 @@ body,
 }
 
 .contenidoProyecto {
- width: 100%;
+  width: 100%;
   padding: 10px;
   position: absolute;
 }

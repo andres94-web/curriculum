@@ -44,6 +44,10 @@ body,
 #boton-modalSobreMi:checked ~ .div-modalSobreMi .contenedor-modalSobreMi {
   transform: translateY(0%);
 }
+#boton-modalSobreMi:checked ~ .contenedor {
+  background-color: #000;
+  color: #000;
+}
 
 .contenedor-modalSobreMi header {
   padding: 10px;
