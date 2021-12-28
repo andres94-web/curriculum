@@ -44,8 +44,12 @@ body,
 #boton-modalProyecto:checked ~ .div-modalProyecto .contenedor-modalProyecto {
   transform: translateY(0%);
 }
-#boton-modalProyecto:checked ~ .contenedor {
-  background-color: #000;
+#boton-modalProyecto:checked ~ .label-modalProyecto {
+  background: none;
+  color: #000;
+}
+#boton-modalProyecto:checked ~ .label-modalContacto {
+  background: none;
   color: #000;
 }
 

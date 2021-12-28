@@ -44,8 +44,25 @@ body,
 #boton-modalLenguaje:checked ~ .div-modalLenguaje .contenedor-modalLenguaje {
   transform: translateY(0%);
 }
-#boton-modalLenguaje:checked ~ .contenedor {
-  background-color: #000;
+
+#boton-modalLenguaje:checked ~ .label-modalLenguaje {
+  background: none;
+  color: #000;
+}
+#boton-modalLenguaje:checked ~ .label-modalCertificados {
+  background: none;
+  color: #000;
+}
+#boton-modalLenguaje:checked ~ .label-modalPortafolio {
+  background: none;
+  color: #000;
+}
+#boton-modalLenguaje:checked ~ .label-modalProyecto {
+  background: none;
+  color: #000;
+}
+#boton-modalLenguaje:checked ~ .label-modalContacto {
+  background: none;
   color: #000;
 }
 

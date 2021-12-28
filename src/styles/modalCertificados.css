@@ -44,8 +44,20 @@ body,
 #boton-modalCertificado:checked ~ .div-modalCertificados .contenedor-modalCertificados {
   transform: translateY(0%);
 }
-#boton-modalCertificado:checked ~ .contenedor {
-  background-color: #000;
+#boton-modalCertificado:checked ~ .label-modalCertificados {
+  background: none;
+  color: #000;
+}
+#boton-modalCertificado:checked ~ .label-modalPortafolio {
+  background: none;
+  color: #000;
+}
+#boton-modalCertificado:checked ~ .label-modalProyecto {
+  background: none;
+  color: #000;
+}
+#boton-modalCertificado:checked ~ .label-modalContacto {
+  background: none;
   color: #000;
 }
 

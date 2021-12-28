@@ -44,8 +44,8 @@ body,
 #boton-modalContacto:checked ~ .div-modalContacto .contenedor-modalContacto {
   transform: translateY(0%);
 }
-#boton-modalContacto:checked ~ .contenedor {
-  background-color: #000;
+#boton-modalContacto:checked ~ .label-modalContacto {
+  background: none;
   color: #000;
 }
 
@@ -60,7 +60,7 @@ body,
 }
 
 .contenedor-modalContacto label {
- position: absolute;
+  position: absolute;
   top: 10px;
   right: 15px;
   font-size: 15px;
