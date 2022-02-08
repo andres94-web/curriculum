@@ -11,17 +11,17 @@ const Lenguajes = () => {
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalLenguaje">Cerrar</label>
 			        <div className="contenidoLenguaje">
-				        <p className='m-0'> JavasCript basico</p>
+				        <p className='m-0'> JavasCript </p>
 						<div className="progress">
   							<div className="progress-bar bg-danger w-50">50%</div>
 						</div>
 
-						<p className='m-0'> React basico</p>
+						<p className='m-0'> React </p>
 						<div className="progress">
-  							<div className="progress-bar bg-danger w-25">25%</div>
+  							<div className="progress-bar bg-danger w-50">50%</div>
 						</div>
 
-						<p className='m-0'> Html y Css (basico)</p>
+						<p className='m-0'> Html y Css </p>
 						<div className="progress">
   							<div className="progress-bar bg-danger w-75">75%</div>
 						</div>

@@ -11,11 +11,8 @@ const Contacto = () => {
 			        <header>¡Bienvenidos!</header>
 			        <label for="boton-modalContacto">Cerrar</label>
 			        <div className="contenidoContacto text-center mt-5">
-				        <p> numero de llamadas:
-							<a className='text-white' target="_blank"> +57 315 858 3789 </a>
-						</p>
-				        <p> numero de Whatsapp:
-							<a className='text-white' href="https://wa.me/573188519011" target="_blank"> +57 318 851 9011</a>
+				        <p> Numero de contacto:
+							<a className='text-white' href="https://wa.me/573158583789" target="_blank"> +57 315 858 3789</a>
 						</p>
 						<p> Correo:
 							<a className='text-white' href="mailto:andresvallelap@gmail.com" target="_blank"> andresvallelap@gmail.com</a>
